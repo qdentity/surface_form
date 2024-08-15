@@ -18,7 +18,7 @@ defmodule Surface.Components.Form.TimeInput do
 
   use Surface.Components.Form.Input
 
-  import Phoenix.HTML.Form, only: [time_input: 3]
+  import PhoenixHTMLHelpers.Form, only: [time_input: 3]
   import Surface.Components.Utils, only: [events_to_opts: 1]
   import Surface.Components.Form.Utils
 

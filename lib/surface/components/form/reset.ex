@@ -18,7 +18,7 @@ defmodule Surface.Components.Form.Reset do
   use Surface.Component
   use Surface.Components.Events
 
-  import Phoenix.HTML.Form, only: [reset: 2]
+  import PhoenixHTMLHelpers.Form, only: [reset: 2]
   import Surface.Components.Utils, only: [events_to_opts: 1]
   import Surface.Components.Form.Utils
 

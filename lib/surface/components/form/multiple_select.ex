@@ -10,7 +10,7 @@ defmodule Surface.Components.Form.MultipleSelect do
 
   use Surface.Component
 
-  import Phoenix.HTML.Form, only: [multiple_select: 4]
+  import PhoenixHTMLHelpers.Form, only: [multiple_select: 4]
   import Surface.Components.Form.Utils
 
   @doc "The form identifier"

@@ -21,7 +21,7 @@ defmodule Surface.Components.Form.DateSelect do
 
   use Surface.Component
 
-  import Phoenix.HTML.Form, only: [date_select: 3]
+  import PhoenixHTMLHelpers.Form, only: [date_select: 3]
   import Surface.Components.Form.Utils
 
   @doc "The form identifier"
